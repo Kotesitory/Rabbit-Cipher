@@ -1,0 +1,13 @@
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\obj\Debug\netcoreapp3.1\EncryptionImplementation.csprojAssemblyReference.cache
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\obj\Debug\netcoreapp3.1\EncryptionImplementation.AssemblyInfoInputs.cache
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\obj\Debug\netcoreapp3.1\EncryptionImplementation.AssemblyInfo.cs
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\obj\Debug\netcoreapp3.1\EncryptionImplementation.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\bin\Debug\netcoreapp3.1\EncryptionImplementation.exe
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\bin\Debug\netcoreapp3.1\EncryptionImplementation.deps.json
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\bin\Debug\netcoreapp3.1\EncryptionImplementation.runtimeconfig.json
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\bin\Debug\netcoreapp3.1\EncryptionImplementation.runtimeconfig.dev.json
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\bin\Debug\netcoreapp3.1\EncryptionImplementation.dll
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\bin\Debug\netcoreapp3.1\EncryptionImplementation.pdb
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\obj\Debug\netcoreapp3.1\EncryptionImplementation.dll
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\obj\Debug\netcoreapp3.1\EncryptionImplementation.pdb
+C:\Users\Stefan\source\repos\EncryptionImplementation\EncryptionImplementation\obj\Debug\netcoreapp3.1\EncryptionImplementation.genruntimeconfig.cache
