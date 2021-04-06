@@ -1,11 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace EncryptionImplementation
 {
     class RabbitUtils
     {
+        /// <summary>
+        /// Helper function defined in the original paper for iterating the state
+        /// </summary>
         public static uint g_function(QByte state, QByte counter)
         {
             uint x = state.ToUInt();
@@ -27,6 +29,13 @@ namespace EncryptionImplementation
             return (num >> bits) | (num << (32 - bits));
         }
 
+        /// <summary>
+        /// Converts a hex string to a byte array
+        /// There is no value validation. 
+        /// Throws FormatException if format is incorrect
+        /// </summary>
+        /// <param name="hex">String to be converted</param>
+        /// <returns>Returns array of bytes representing the value contained in the hex string</returns>
         public static byte[] StringToByteArray(string hex)
         {
             return Enumerable.Range(0, hex.Length)
@@ -35,6 +44,12 @@ namespace EncryptionImplementation
                              .ToArray();
         }
 
+        /// <summary>
+        /// Converts a byte array to a hex string
+        /// This is useful for preview or printing
+        /// </summary>
+        /// <param name="bytes">Byte array to be converted</param>
+        /// <returns>Returns a hex string with the value of the provided bytes</returns>
         public static string ByteArrayToHexString(byte[] bytes)
         {
             string result = BitConverter.ToString(bytes);

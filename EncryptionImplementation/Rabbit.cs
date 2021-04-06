@@ -6,6 +6,9 @@ namespace EncryptionImplementation
 {
     class Rabbit
     {
+        /// <summary>
+        /// Constants used for incrementing the counts
+        /// </summary>
         public static readonly uint[] aConstants = {
             0x4D34D34D,
             0xD34D34D3,
@@ -40,6 +43,9 @@ namespace EncryptionImplementation
             this.state.Init(key, iv);
         }
 
+        /// <summary>
+        /// Generates a keystream from the current state and counts
+        /// </summary>
         public byte[] GenerateKeystream()
         {
             byte[] streamkey = new byte[16];
@@ -60,6 +66,11 @@ namespace EncryptionImplementation
             return streamkey;
         }
 
+        /// <summary>
+        /// Encrypts a 128bit block of plaintext
+        /// </summary>
+        /// <param name="plaintextBlock">Block of plaintext to be encrypted</param>
+        /// <returns>Returns a 128bit of ciphertext</returns>
         public byte[] EncryptBlock(byte[] plaintextBlock)
         {
             if (plaintextBlock.Length > 16)

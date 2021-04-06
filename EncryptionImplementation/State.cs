@@ -4,6 +4,11 @@ using System.Text;
 
 namespace EncryptionImplementation
 {
+    /// <summary>
+    /// Class wraping the state of the Rabbit Cipher algorithm.
+    /// Most of the methods are direct mappings from the
+    /// original paper formulas into code.
+    /// </summary>
     class State
     {
         public QByte[] states = new QByte[8];
